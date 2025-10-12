@@ -1,2 +1,3 @@
 /raw/*
 !/raw/sample.set
+.env
