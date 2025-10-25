@@ -1,4 +1,4 @@
 /raw/*
 !/raw/sample.set
 .env
-/processed/*
+/notebooks/joseph-nb/processed/*
