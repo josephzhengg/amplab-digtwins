@@ -2,3 +2,4 @@
 !/raw/sample.set
 .env
 /notebooks/joseph-nb/processed/*
+/notebooks/joseph-nb/trained_models/*
