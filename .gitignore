@@ -3,3 +3,5 @@
 .env
 /notebooks/joseph-nb/processed/*
 /notebooks/joseph-nb/trained_models/*
+/synthetic_data/*
+/models/*
