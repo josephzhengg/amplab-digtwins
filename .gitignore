@@ -5,3 +5,5 @@
 /notebooks/joseph-nb/trained_models/*
 /synthetic_data/*
 /models/*
+/processed/*
+/gan_data/*
