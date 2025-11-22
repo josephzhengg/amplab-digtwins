@@ -7,3 +7,4 @@
 /models/*
 /processed/*
 /gan_data/*
+/filtered_processed/*
