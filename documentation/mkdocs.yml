@@ -13,6 +13,14 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - About EEG:
+      - What is it?: About EEG/eegdata.md
+      - Applications: About EEG/important-data.md
+  - Generative Adversarial Networks (GANS): gans.md
+
 markdown_extensions:
   - pymdownx.betterem
   - admonition
