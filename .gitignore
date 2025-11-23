@@ -1,3 +1,10 @@
 /raw/*
 !/raw/sample.set
 .env
+/notebooks/joseph-nb/processed/*
+/notebooks/joseph-nb/trained_models/*
+/synthetic_data/*
+/models/*
+/processed/*
+/gan_data/*
+/filtered_processed/*
