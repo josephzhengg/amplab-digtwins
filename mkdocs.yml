@@ -1,0 +1,39 @@
+site_name: AMPLab Digitial Twins
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - About EEG:
+      - What is it?: About EEG/eegdata.md
+      - Applications: About EEG/important-data.md
+  - Generative Adversarial Networks (GANS): gans.md
+
+markdown_extensions:
+  - pymdownx.betterem
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.blocks.caption
+  - md_in_html
+  - attr_list
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
