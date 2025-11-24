@@ -2,7 +2,7 @@
 
 EEG data consists of time-series recordings of electrical activity from multiple electrodes placed on the scalp. Each electrode captures voltage fluctuations over time, resulting in a multi-channel dataset that reflects the brain's dynamic activity.
 
-# How to obtain EEG Data
+## How to obtain EEG Data
 
 EEG data can be easily obtained through various means: as of Fall, 2025, we're using Healthy Brain Network's (HBN) open EEG dataset (release 10) which can be found [here](https://nemar.org/dataexplorer/detail?dataset_id=ds005515){:target="\_blank"}. This dataset includes EEG recordings from a large number of participants, along with relevant metadata such as age, sex, and clinical assessments.
 
@@ -10,7 +10,7 @@ Doing this research, we're focused on classifying and predicting people's brain 
 
 When working with EEG data, it's important to preprocess the data to remove artifacts (e.g., eye blinks, muscle activity) and to filter the signals to focus on specific frequency bands of interest (e.g., delta, theta, alpha, beta, gamma). After preprocessing, various analysis techniques can be applied, such as time-frequency analysis, connectivity analysis, and machine learning algorithms for classification and prediction tasks.
 
-# Different Bands
+## Different Bands
 
 EEG signals are typically analyzed in terms of different frequency bands, each associated with specific cognitive and physiological states. The main EEG frequency bands are:
 
@@ -24,7 +24,7 @@ EEG signals are typically analyzed in terms of different frequency bands, each a
 
     Anything relatively above 50 Hz is often considered noise and is usually filtered out during preprocessing (i.e. artificial electrical signals from muscle movement or external electronic devices).
 
-# Power Spectral Density (PSD)
+## Power Spectral Density (PSD)
 
 Let's explore a fundamental part of EEG data analysis: Power Spectral Density (PSD) plots. PSD plots help us visualize how the power of the EEG signal is distributed across different frequency bands. By examining these plots, we can identify dominant frequencies and assess the overall brain activity.
 
@@ -41,7 +41,7 @@ At the lower end of the frequency spectrum, we often observe higher power in the
 
 With these changes in power across different frequency bands, we can infer various aspects of brain function and identify potential abnormalities. For instance, an increase in theta power may indicate drowsiness, while elevated beta activity could suggest heightened cognitive processing.
 
-# Real Example
+## Real Example
 
 Let's use one of HBN's (release 10) EEG recordings to illustrate how to interpret EEG data. Below is a sample EEG signal from a participant during a resting-state session.
 
@@ -69,7 +69,7 @@ You can see, at around 10 Hz, there's a noticeable difference in power between t
 
     By analyzing EEG data through PSD plots, we can gain valuable insights into brain function and cognitive states. The differences observed between eyes open and eyes closed conditions highlight the dynamic nature of brain activity and its responsiveness to sensory input.
 
-# Summary
+## Summary
 
 What we want to do in this research is to use these findings, and produce models able to predict and classify brain states based on EEG data. This in turn can lead to the development of Digital Twins that accurately reflect an individual's brain state in real-time.
 

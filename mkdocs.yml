@@ -1,4 +1,4 @@
-site_name: AMPLab Digitial Twins
+site_name: AMPLab Digital Twins
 theme:
   name: material
   features:
@@ -17,9 +17,14 @@ theme:
 nav:
   - Home: index.md
   - About EEG:
-      - What is it?: About EEG/eegdata.md
-      - Applications: About EEG/important-data.md
-  - Generative Adversarial Networks (GANS): gans.md
+      - What is it?: about/about-eeg.md
+      - Applications of EEG: about/eeg-applications.md
+  - How to Use This Repo:
+      - Current Workflow: repo/current-workflow.md
+      - Steps to Reproduce Results: repo/repo-steps.md
+  - Generative Adversarial Networks (GANs): gans.md
+  - Artifact Subspace Reconstruction (ASR): asr.md
+  - Resources: resources.md
 
 markdown_extensions:
   - pymdownx.betterem
@@ -37,3 +42,11 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

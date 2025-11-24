@@ -1,6 +1,6 @@
 # AMPLAB: Digital Twins Project
 
-Check out the documentation <a href="https://josephzhengg.github.io/amplab-digtwins/" target="_blank">here</a>.
+Check out the documentation [here](https://josephzhengg.github.io/amplab-digtwins/).
 
 This repository contains code and resources for the AMPLAB Digital Twins Project. Look at the `notebooks` directory for Jupyter notebooks that goes through the workflow of data-processing and model-building for digital twins applications.
 
@@ -29,7 +29,7 @@ The main libraries used in this project are:
 - `models/`: Directory to save trained models.
 - `notebooks/`: Contains Jupyter notebooks for data processing and model building.
 - `processed/`: Directory to store processed data files.
-- `raw/`: Directory to store raw EEG data files.
+- `raw/`: Directory to store raw EEG data files. (This is SUPER IMPORTANT - make sure to place your raw data files here!)
 - `synthetic_data/`: Directory to store synthetic data files.
 
 ## Notebooks
