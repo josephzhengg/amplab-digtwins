@@ -22,6 +22,7 @@ nav:
   - How to Use This Repo:
       - Current Workflow: repo/current-workflow.md
       - Steps to Reproduce Results: repo/repo-steps.md
+      - What's Next: repo/whats-next.md
   - Generative Adversarial Networks (GANs): gans.md
   - Artifact Subspace Reconstruction (ASR): asr.md
   - Resources: resources.md

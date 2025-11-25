@@ -34,6 +34,6 @@ flowchart LR
     style G fill:#f3e5f5
 ```
 
-Above is our current workflow for processing EEG data and training GAN models. All of these steps are listed to be of the data-preprocessing step of our project.
+Above is our current workflow for processing EEG data and training GAN models (turn on light mode if you can't see it!). All of these steps are listed to be of the data-preprocessing step of our project.
 
 Research being research, feel free to modify and adapt the workflow as needed for your experiments!
